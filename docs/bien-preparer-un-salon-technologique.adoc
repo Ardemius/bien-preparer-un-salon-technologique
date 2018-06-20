@@ -21,49 +21,8 @@ Un salon de plusieurs jours ne se prépare pas une fois sa porte passée, mais p
 === On prend son temps pour lire le programme
 
 [%step]
-* Devoxx France 2018, ce sont 235 talks.
+* Devoxx France 2018, ce sont *235* talks.
 * Cela ne se lit donc pas en 5 minutes...
-
-=== On prépare son propre planning 
-
-Quelques conseils :
-
-[%step]
-* Garder 2 ou 3 thèmes communs aux conférences auxquelles on assiste (Architecture, IoT, Data, etc.)
-* Vérifier quelles sont les conférences *non* filmées, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi de Devoxx France)
-
-[NOTE.speaker]
---
-Les grands salons proposent des conférences sur de nombreux thèmes (Devoxx France 2018 : "Java, JVM, Javas SE/EE", "Architecture, Performance & Securité", "BigData, Machine-learning, Intelligence artificielle et Analytics"). +
-Pour être efficace et éviter de trop se disperser, mon conseil, sélectionner un nombre réduit de thèmes pour son planning
---
-
-=== !
-
-* Ne pas hésiter à choisir plusieurs conférences sur un même horaire (en cas de salle complète le jour J)
-
-NOTE: Si le speaker est une "rock star", la conférence sera probablement très demandée, et vite complète le jour J
-
-=== On prépare ses prises de notes
-
-* Même si on aime le papier, le numérique, c'est *mieux* !
-
-[%step]
-* Mettre ses notes sur GitHub (ou assimilé) permet de les rendre facilement accessibles
-* et permettra de disposer d'un *moteur de recherche*
-* Choisir un langage adapté (Markdown, ou mieux *Asciidoctor* !) permettra une saisie de notes rapide, tout en garantissant un rendu de qualité.
-
-[NOTE.speaker]
---
-* PC ou tablette, facilité de frappe ou autonomie, à vous de choisir. Moi, c'est PC (plus de confort à la frappe)
-* Disposer de notes permet de rapidement se remémorer une conférence, et d'éviter le "mais où ai-je déjà entendu cela..."
-* Markdown et Asciidoctor sont nativement supportés par GitHub, GitLab & Co
-* Quasiment tous les recruteurs regardent GitHub de nos jours. C'est donc un bon moyen d'être visible et de faire valoir ses intérêts et son expertise.
---
-
-=== Les templates de notes sont bien pratiques
-
-* Avoir son *template* de prêt pour chacune des conférences de son planning permet de gagner du temps le jour J. 
 
 === On regarde quelles sont les entreprises présentes
 
@@ -80,6 +39,63 @@ Tu cherches un architecte Data ? Tiens, voici ma carte... +
 RESEAUTER est un hyper important dans notre métier. Un bon expert a un bon réseau. +
 -> C'est une évidence, nous sommes plus forts en groupe que seuls. +
 --
+
+=== On prépare son propre planning 
+
+Quelques conseils :
+
+[%step]
+* *Garder 2, 3 thèmes communs* aux conférences auxquelles on assiste (Architecture, IoT, Data, etc.)
+* Vérifier quelles sont les conférences *non* filmées, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi de Devoxx France)
+
+[NOTE.speaker]
+--
+2, 3 thèmes et non 15...
+
+Les grands salons proposent des conférences sur de nombreux thèmes (Devoxx France 2018 : "Java, JVM, Javas SE/EE", "Architecture, Performance & Securité", "BigData, Machine-learning, Intelligence artificielle et Analytics"). +
+Pour être efficace et éviter de trop se disperser, mon conseil, sélectionner un nombre réduit de thèmes pour son planning
+--
+
+=== !
+
+[%step]
+* *Garder quelques slots libres* pour pouvoir réseauter, discuter avec un speaker, sans stress, et sans trop de monde au stand.
+* *Garder 1 slot de libre pour manger !*
+
+=== !
+
+* Ne pas hésiter à choisir *plusieurs conférences sur un même créneau horaire* (en cas de salle complète le jour J)
+
+NOTE: Si le speaker est une "rock star", la conférence sera probablement très demandée, et vite complète le jour J
+
+=== On prépare ses prises de notes
+
+Même si on aime le papier, le numérique, c'est *mieux* !
+
+[NOTE.speaker]
+--
+* PC ou tablette, facilité de frappe ou autonomie, à vous de choisir. Moi, c'est PC (plus de confort à la frappe)
+--
+
+=== !
+
+[%step]
+* Mettre ses *notes sur GitHub* (ou assimilé) permet de les rendre facilement accessibles
+* et de disposer d'un *moteur de recherche*
+* Choisir un langage adapté (Markdown, ou mieux *Asciidoctor* !) permettra une saisie de notes *rapide*, tout en garantissant un *rendu de qualité*.
+
+[NOTE.speaker]
+--
+* Disposer de notes permet de rapidement se remémorer une conférence, et d'éviter le "mais où ai-je déjà entendu cela..."
+* Markdown et Asciidoctor sont nativement supportés par GitHub, GitLab & Co
+* Quasiment tous les recruteurs regardent GitHub de nos jours. C'est donc un bon moyen d'être visible et de faire valoir ses intérêts et son expertise.
+--
+
+=== Les templates de notes sont bien pratiques
+
+[%step]
+* Avoir son *template* de prêt pour chacune des conférences de son planning permet de gagner du temps le jour J. 
+* Prévoir également une page pour recenser, au fur et à mesure, les *buzz words* du salon.
 
 === J-1 : derniers préparatifs
 
@@ -99,10 +115,11 @@ Le pont Wifi est particulièrement utile quand aucun Wifi public n'est accessibl
 
 == Jour J !
 
-Prévoir d'*arriver le plus tôt possible* :
+Prévoir d'*arriver le plus tôt possible*
 
+[%step]
 * afin de pouvoir récupérer son billet *sans faire la queue*
-* pour avoir plus de temps pour commencer son tour des stands
+* pour avoir plus de temps pour *commencer son tour des stands*
 * et, spécial Devoxx, pour pouvoir *s'installer dans l'amphi principal* 30 min à l'avance, histoire d'être sûr d'avoir une place ! +
 (et accessoirement pouvoir siroter tranquillement un café, vous en aurez besoin !)
 
@@ -110,10 +127,9 @@ Prévoir d'*arriver le plus tôt possible* :
 
 Qu'ils sont beaux et sympas tous ces *goodies* et jeux proposés par les exposants !
 
-* Rester *raisonnable*, on peut y passer le salon...
-
 [%step]
-* Et ce serait dommage, à cause de ces 2 minutes de plus, de se retrouver devant des portes closes car salle complète...
+* Rester *raisonnable*, on peut y passer le salon...
+* Et ce serait dommage de se retrouver, à cause de ces 2 %#&$! minutes de plus, devant des portes closes car salle complète...
 
 [NOTE.speaker]
 --
@@ -126,19 +142,17 @@ Les goodies, ce n'est pas Pokemon... On ne joue pas à "attrapez les tous" 😉
 * *Taper vite* ! +
 Au diable les fautes et les doublons, on mettra au propre plus tard. 
 +
-NOTE: L'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de simplement pouvoir se relire plus tard. 
+NOTE: L'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de simplement pouvoir se relire. 
 
 === !
 
 
-* Ne pas hésiter à *prendre des photos*
-	** en évitant néanmoins le "1 photo par slide". +
-	Les photos sont là pour persister les *infos trop longues à taper*.
-	** la synchronisation automatique des photos sur Google Photo permet de les voir presque de suite sur son PC.
+Ne pas hésiter à *prendre des photos*
 
 [%step]
-* Etre attentif aux *questions / réponses* en fin de conférences. +
-Ces dernières peuvent être de vraies mines d'or, et ne seront pas dans les slides.
+* en évitant néanmoins le "1 photo par slide". +
+	Les photos sont là pour persister les *infos trop longues à taper*.
+* la synchronisation automatique des photos sur Google Photo permet de les voir presque de suite sur son PC.
 
 [NOTE.speaker]
 --
@@ -149,15 +163,28 @@ Elles sont surtout là comme aide mémoire sur les concepts importants ou à cre
 C'est l'endroit idéal pour persister les "tips" du speaker, qui ne seront peut-être pas dans les slides "officiels".
 --
 
-=== Les impondérables
+=== !
+
+Etre attentif aux *questions / réponses* en fin de conférences.
 
 [%step]
-* *Plus de batterie !* 
-	** On passe aux notes papier.
-	** Après le salon, si on n'a pas le temps de les retaper, ne surtout *PAS* les jeter, mais *les prendre en photo* et les sauvegarder en y ajoutant simplement quelques labels (feront office de mots clés pour le moteur de recherche)
-* *Salle complète !*
-	** on checke s'il n'y a pas une diffusion vidéo parallèle sur une salle annexe
-	** ou on bascule sur sa conférence "plan B"
+Ces dernières peuvent être de vraies mines d'or, et ne seront *pas* dans les slides.
+
+=== Le "buzz words" counter
+
+[%step]
+* Un moyen simple de détecter les grandes tendances du salon est de *noter les technos les plus fréquemment citées*.
+* Cela peut se commencer dès la lecture du programme (avant le salon)
+
+=== Les impondérables
+
+=== !
+
+*Plus de batterie !*
+
+[%step]
+* On passe aux notes papier.
+* Après le salon, si on n'a pas le temps de les retaper, ne surtout *PAS* les jeter, mais *les prendre en photo* et les sauvegarder en y ajoutant simplement quelques labels (feront office de mots clés pour le moteur de recherche)
 
 [NOTE.speaker]
 --
@@ -166,20 +193,52 @@ Rare sont les PCs qui tiennent une journée d'autonomie. Si l'on ne peut pas rec
 On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout de serviette peuvent valoir de l'or.
 --
 
+=== !
+
+*Salle complète !*
+
+[%step]
+* on checke s'il n'y a pas une diffusion vidéo parallèle sur une salle annexe
+* ou on bascule sur sa conférence "plan B"
+
 == Après le salon
 
-* *JUSTE* après le salon, mettre ses notes au propre.
-	** Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de "Suppr" final...
+=== Mettre ses notes au propre, VITE !
+
+[%step]
+* Le mieux est *vraiment* de s'y mettre dans les quelques jours qui suivent
+* Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de *`Suppr`* final...
+
+=== Faire une synthèse
+
+Point *CA-PI-TAL*, c'est ce que vous devez retirer du salon.
+
+=== !
+
+[%step]
+* Quelles sont les technos qui ont *le vent en poupe* ?
+* Sont-elles déjà matures, ou est-ce du "bleeding edge" ?
+* Quelles sont celles qui sont en *fin de vie*, ou qu'il est préférable d'éviter ?
+* Quels sont les *speakers à suivre* sur Twitter (ou autre) pour avoir les infos les plus fraîches sur une techno ?
+* Quelle est *LA* tendance globale
 
 [NOTE.speaker]
 --
 "JUSTE" = 3, 4 jours et pas 30 ou 40 jours...
+
+De nombreuses conférences ne donnent finalement que des "points d'entrées" sur une techno. +
+A vous de détecter celles qui sont vraiment intéressantes, et sur lesquelles il faudra investir du temps et creuser.
+
+Côté tendance globale pour Devoxx France 2018 : plateformes "tout-en-un", Kafka partout et explosion des technos à suivre
+
+Rédiger la synthèse à côté des buzz words, c'est pratique 😉
 --
 
 === Les slides et vidéos
 
 Ces derniers sont généralement mis en ligne peu de temps après le salon.
 
+[%step]
 * *YouTube*, *SlideShare* et *Speaker Deck* sont les plateformes les plus courantes
 * Revoir les vidéos de 235 talks, ce n'est pas possible, même si tout vous intéresse...
 	** Faites des choix : l'essentiel d'abord
