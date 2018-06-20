@@ -1,0 +1,212 @@
+= Comment bien préparer un salon technologique ?
+// classic AsciiDoctor attributes
+:icons: font
+:imagesdir: images
+// Activate syntax highlighting with highlight.js
+:source-highlighter: highlightjs
+:lb: pass:[<br> +]
+// reveal.js attributes
+:customcss: styles/myCustomCSS.css
+:revealjs_theme: white
+
+Thomas SCHWENDER
+
+icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="blue"] https://twitter.com/thomasschwender[@thomasschwender] +
+image:StarTECH-Java-logo.png[Logo StarTECH,250,250]
+
+== Avant la conférence
+
+Un salon de plusieurs jours ne se prépare pas une fois sa porte passée, mais plusieurs jours à l'avance.
+
+=== On prend son temps pour lire le programme
+
+[%step]
+* Devoxx France 2018, ce sont 235 talks.
+* Cela ne se lit donc pas en 5 minutes...
+
+=== On prépare son propre planning 
+
+Quelques conseils :
+
+[%step]
+* Garder 2 ou 3 thèmes communs aux conférences auxquelles on assiste (Architecture, IoT, Data, etc.)
+* Vérifier quelles sont les conférences *non* filmées, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi de Devoxx France)
+
+[NOTE.speaker]
+--
+Les grands salons proposent des conférences sur de nombreux thèmes (Devoxx France 2018 : "Java, JVM, Javas SE/EE", "Architecture, Performance & Securité", "BigData, Machine-learning, Intelligence artificielle et Analytics"). +
+Pour être efficace et éviter de trop se disperser, mon conseil, sélectionner un nombre réduit de thèmes pour son planning
+--
+
+=== !
+
+* Ne pas hésiter à choisir plusieurs conférences sur un même horaire (en cas de salle complète le jour J)
+
+NOTE: Si le speaker est une "rock star", la conférence sera probablement très demandée, et vite complète le jour J
+
+=== On prépare ses prises de notes
+
+* Même si on aime le papier, le numérique, c'est *mieux* !
+
+[%step]
+* Mettre ses notes sur GitHub (ou assimilé) permet de les rendre facilement accessibles
+* et permettra de disposer d'un *moteur de recherche*
+* Choisir un langage adapté (Markdown, ou mieux *Asciidoctor* !) permettra une saisie de notes rapide, tout en garantissant un rendu de qualité.
+
+[NOTE.speaker]
+--
+* PC ou tablette, facilité de frappe ou autonomie, à vous de choisir. Moi, c'est PC (plus de confort à la frappe)
+* Disposer de notes permet de rapidement se remémorer une conférence, et d'éviter le "mais où ai-je déjà entendu cela..."
+* Markdown et Asciidoctor sont nativement supportés par GitHub, GitLab & Co
+* Quasiment tous les recruteurs regardent GitHub de nos jours. C'est donc un bon moyen d'être visible et de faire valoir ses intérêts et son expertise.
+--
+
+=== Les templates de notes sont bien pratiques
+
+* Avoir son *template* de prêt pour chacune des conférences de son planning permet de gagner du temps le jour J. 
+
+=== On regarde quelles sont les entreprises présentes
+
+[%step]
+* Un salon est l'occasion de rencontrer des sociétés à la pointe de la technique, ainsi que des experts que l'on croise rarement.
+
+* Nouer de bons contacts avec eux, *échanger des coordonnées*, permet de [red]*développer son réseau*. +
+Ce dernier vous permettra (très) probablement de trouver une solution à de futurs problèmes.
+
+[NOTE.speaker]
+--
+Tu cherches un architecte Data ? Tiens, voici ma carte... +
+
+RESEAUTER est un hyper important dans notre métier. Un bon expert a un bon réseau. +
+-> C'est une évidence, nous sommes plus forts en groupe que seuls. +
+--
+
+=== J-1 : derniers préparatifs
+
+* Téléphone, PC *rechargés* +
+-> Avoir sur soi son adaptateur secteur pour recharger le PC à une pause...
+* Configurer un *pont Wifi* entre son téléphone et son PC.
+
+* Récupérer le *plan des lieux*, avec les salles et les stands des exposants.
+* *Avoir son programme sur soi*, facilement accessible. 
++
+NOTE: Mon conseil : le sauvegarder sur GitHub à côté de ses templates de notes.
+
+[NOTE.speaker]
+--
+Le pont Wifi est particulièrement utile quand aucun Wifi public n'est accessible ou que notre réception 4G est meilleure.
+--
+
+== Jour J !
+
+Prévoir d'*arriver le plus tôt possible* :
+
+* afin de pouvoir récupérer son billet *sans faire la queue*
+* pour avoir plus de temps pour commencer son tour des stands
+* et, spécial Devoxx, pour pouvoir *s'installer dans l'amphi principal* 30 min à l'avance, histoire d'être sûr d'avoir une place ! +
+(et accessoirement pouvoir siroter tranquillement un café, vous en aurez besoin !)
+
+=== A la tentation tu résisteras
+
+Qu'ils sont beaux et sympas tous ces *goodies* et jeux proposés par les exposants !
+
+* Rester *raisonnable*, on peut y passer le salon...
+
+[%step]
+* Et ce serait dommage, à cause de ces 2 minutes de plus, de se retrouver devant des portes closes car salle complète...
+
+[NOTE.speaker]
+--
+Les goodies, ce n'est pas Pokemon... On ne joue pas à "attrapez les tous" 😉
+--
+
+=== Prise de notes
+
+[%step]
+* *Taper vite* ! +
+Au diable les fautes et les doublons, on mettra au propre plus tard. 
++
+NOTE: L'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de simplement pouvoir se relire plus tard. 
+
+=== !
+
+
+* Ne pas hésiter à *prendre des photos*
+	** en évitant néanmoins le "1 photo par slide". +
+	Les photos sont là pour persister les *infos trop longues à taper*.
+	** la synchronisation automatique des photos sur Google Photo permet de les voir presque de suite sur son PC.
+
+[%step]
+* Etre attentif aux *questions / réponses* en fin de conférences. +
+Ces dernières peuvent être de vraies mines d'or, et ne seront pas dans les slides.
+
+[NOTE.speaker]
+--
+L'essentiel est de pouvoir se relire, même si les notes sont criblées de fautes sur le coup, ce n'est pas un exercice de style.
+
+Les notes ne doivent pas être la copie exacte des slides, qui sont généralement accessibles quelques temps après le salon. +
+Elles sont surtout là comme aide mémoire sur les concepts importants ou à creuser plus tard. +
+C'est l'endroit idéal pour persister les "tips" du speaker, qui ne seront peut-être pas dans les slides "officiels".
+--
+
+=== Les impondérables
+
+[%step]
+* *Plus de batterie !* 
+	** On passe aux notes papier.
+	** Après le salon, si on n'a pas le temps de les retaper, ne surtout *PAS* les jeter, mais *les prendre en photo* et les sauvegarder en y ajoutant simplement quelques labels (feront office de mots clés pour le moteur de recherche)
+* *Salle complète !*
+	** on checke s'il n'y a pas une diffusion vidéo parallèle sur une salle annexe
+	** ou on bascule sur sa conférence "plan B"
+
+[NOTE.speaker]
+--
+Rare sont les PCs qui tiennent une journée d'autonomie. Si l'on ne peut pas recharger à une pause, le midi, la panne est inévitable.
+
+On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout de serviette peuvent valoir de l'or.
+--
+
+== Après le salon
+
+* *JUSTE* après le salon, mettre ses notes au propre.
+	** Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de "Suppr" final...
+
+[NOTE.speaker]
+--
+"JUSTE" = 3, 4 jours et pas 30 ou 40 jours...
+--
+
+=== Les slides et vidéos
+
+Ces derniers sont généralement mis en ligne peu de temps après le salon.
+
+* *YouTube*, *SlideShare* et *Speaker Deck* sont les plateformes les plus courantes
+* Revoir les vidéos de 235 talks, ce n'est pas possible, même si tout vous intéresse...
+	** Faites des choix : l'essentiel d'abord
+	** Vous pouvez *accélérer la vitesse de lecture d'une vidéo YouTube* (si si !)
+
+[NOTE.speaker]
+--
+Ne pas commencer par la vidéo 1 en se disant qu'on va réussir à regarder toutes les 235...
+
+Passer une vidéo en x1.5, cela permet de gagner pas mal de temps.
+--
+
+== A tester et autres bonus...
+
+* Les *sketch notes* : un format de prise de notes graphique
++
+NOTE: Un exemple sympa est disponible en fin de l'épisode des Cast Codeurs de Devoxx France 2018 :
+
+video::lFkDUWcKPyU[youtube, start=2928]
+
+== Ressources
+
+* *Slides* : https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html[ardemius.github.io/bien-preparer-un-salon-technologique/slides.html]
+* *Code des slides* : https://github.com/Ardemius/bien-preparer-un-salon-technologique[github.com/Ardemius/bien-preparer-un-salon-technologique] +
+Ces slides ont été générés avec http://asciidoctor.org/[Asciidoctor] et le backend https://github.com/asciidoctor/asciidoctor-reveal.js[reveal.js]
+
+== Des questions ?
+
+== Merci !
+
