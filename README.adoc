@@ -8,6 +8,10 @@ Talk ayant pour objectif d'expliquer l'état d'esprit à avoir pour aborder un s
 
 Les slides sont directement accessibles à l'URL https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html, à l'aide des *GitHub pages* du projet.
 
+Présenté au MeetUp https://www.meetup.com/fr-FR/SofteamTalks/[Softeam Talks] les :
+
+* https://www.meetup.com/fr-FR/SofteamTalks/events/252358274/[2018/07/19]
+
 == Création des slides
 
 Ces slides utilisent la stack technique http://asciidoctor.org/[*Asciidoctor*] + backend https://github.com/asciidoctor/asciidoctor-reveal.js[*reveal.js*]. +
