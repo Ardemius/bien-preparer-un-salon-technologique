@@ -12,7 +12,9 @@
 Thomas SCHWENDER
 
 icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="blue"] https://twitter.com/thomasschwender[@thomasschwender] +
-image:StarTECH-Java-logo.png[Logo StarTECH,250,250]
+image:StarTECH-Java-logo.png[Logo StarTECH,200,200]
+image:Softeam-Group-logo.jpg[Logo Softeam Group,200,200]
+image:Softeam-software-crafter-logo.jpg[Logo Crafter,200,200]
 
 == Avant la conférence
 
@@ -153,6 +155,7 @@ Ne pas hésiter à *prendre des photos*
 * en évitant néanmoins le "1 photo par slide". +
 	Les photos sont là pour persister les *infos trop longues à taper*.
 * la synchronisation automatique des photos sur Google Photo permet de les voir presque de suite sur son PC.
+	** De plus, les photos téléchargées de Google Photos voient leur taillent passer de quelques Mo à quelques centaines de Ko (bien pratique)
 
 [NOTE.speaker]
 --
@@ -264,6 +267,10 @@ video::lFkDUWcKPyU[youtube, start=2928]
 * *Slides* : https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html[ardemius.github.io/bien-preparer-un-salon-technologique/slides.html]
 * *Code des slides* : https://github.com/Ardemius/bien-preparer-un-salon-technologique[github.com/Ardemius/bien-preparer-un-salon-technologique] +
 Ces slides ont été générés avec http://asciidoctor.org/[Asciidoctor] et le backend https://github.com/asciidoctor/asciidoctor-reveal.js[reveal.js]
+
+//- 
+
+* *Mes prises de notes de Devoxx France 2018* : https://github.com/Ardemius/meetups-talks-conferences-notes/tree/master/2018-devoxx-france
 
 == Des questions ?
 
