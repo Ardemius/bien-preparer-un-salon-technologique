@@ -101,10 +101,10 @@ Même si on aime le papier, le numérique, c'est *mieux* !
 
 === J-1 : derniers préparatifs
 
+[%step]
 * Téléphone, PC *rechargés* +
 -> Avoir sur soi son adaptateur secteur pour recharger le PC à une pause...
 * Configurer un *pont Wifi* entre son téléphone et son PC.
-
 * Récupérer le *plan des lieux*, avec les salles et les stands des exposants.
 * *Avoir son programme sur soi*, facilement accessible. 
 +
@@ -142,20 +142,18 @@ Les goodies, ce n'est pas Pokemon... On ne joue pas à "attrapez les tous" 😉
 
 [%step]
 * *Taper vite* ! +
-Au diable les fautes et les doublons, on mettra au propre plus tard. 
-+
-NOTE: L'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de simplement pouvoir se relire. 
+Au diable le style et les doublons, l'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de simplement pouvoir se relire. 
 
 === !
-
 
 Ne pas hésiter à *prendre des photos*
 
 [%step]
 * en évitant néanmoins le "1 photo par slide". +
 	Les photos sont là pour persister les *infos trop longues à taper*.
-* la synchronisation automatique des photos sur Google Photo permet de les voir presque de suite sur son PC.
-	** De plus, les photos téléchargées de Google Photos voient leur taillent passer de quelques Mo à quelques centaines de Ko (bien pratique)
+
+TIP: la *synchronisation automatique* des photos sur Google Photo permet de les voir presque de suite sur son PC. +
+De plus, les photos téléchargées de Google Photos voient leur taille passer de quelques Mo à quelques centaines de Ko (bien pratique)
 
 [NOTE.speaker]
 --
@@ -187,11 +185,11 @@ Ces dernières peuvent être de vraies mines d'or, et ne seront *pas* dans les s
 
 [%step]
 * On passe aux notes papier.
-* Après le salon, si on n'a pas le temps de les retaper, ne surtout *PAS* les jeter, mais *les prendre en photo* et les sauvegarder en y ajoutant simplement quelques labels (feront office de mots clés pour le moteur de recherche)
+* Après le salon, si on n'a pas le temps de les retaper, ne surtout *PAS* les jeter, mais *les prendre en photo*, et les sauvegarder en y ajoutant simplement quelques *labels* (feront office de mots clés pour le moteur de recherche)
 
 [NOTE.speaker]
 --
-Rare sont les PCs qui tiennent une journée d'autonomie. Si l'on ne peut pas recharger à une pause, le midi, la panne est inévitable.
+Rares sont les PCs qui tiennent une journée d'autonomie. Si l'on ne peut pas recharger à une pause, le midi, la panne est inévitable.
 
 On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout de serviette peuvent valoir de l'or.
 --
@@ -202,15 +200,23 @@ On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout
 
 [%step]
 * on checke s'il n'y a pas une diffusion vidéo parallèle sur une salle annexe
-* ou on bascule sur sa conférence "plan B"
+* ou on bascule sur sa conférence "plan B".
 
 == Après le salon
 
 === Mettre ses notes au propre, VITE !
 
 [%step]
-* Le mieux est *vraiment* de s'y mettre dans les quelques jours qui suivent
-* Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de *`Suppr`* final...
+* Le mieux est d'avoir terminer sa prise de notes en même temps que le speaker quitte la salle 👍
+* S'il y a vraiment des modifications à apporter, occupez-vous-en dans les quelques jours suivant le talk.
+	** Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de *`Suppr`* final...
+
+[NOTE.speaker]
+--
+Donner l'exemple de mes repo de prises de notes : au moment où le speaker quitte la salle, j'ai généralement déjà push sur GitHub. +
+Ce sont certes des notes "brouillons", mais elles sont suffisantes pour être exploiter plus tard, et c'est bien la 1ere chose qu'on leur demande. +
+Après, il est toujours possible de créer après coup un article mieux fini sur la base de ces 1eres notes.
+--
 
 === Faire une synthèse
 
@@ -232,7 +238,7 @@ Point *CA-PI-TAL*, c'est ce que vous devez retirer du salon.
 De nombreuses conférences ne donnent finalement que des "points d'entrées" sur une techno. +
 A vous de détecter celles qui sont vraiment intéressantes, et sur lesquelles il faudra investir du temps et creuser.
 
-Côté tendance globale pour Devoxx France 2018 : plateformes "tout-en-un", Kafka partout et explosion des technos à suivre
+Exemple : Côté tendance globale pour Devoxx France 2018 : plateformes "tout-en-un", Kafka partout et explosion des technos à suivre
 
 Rédiger la synthèse à côté des buzz words, c'est pratique 😉
 --
@@ -243,15 +249,16 @@ Ces derniers sont généralement mis en ligne peu de temps après le salon.
 
 [%step]
 * *YouTube*, *SlideShare* et *Speaker Deck* sont les plateformes les plus courantes
-* Revoir les vidéos de 235 talks, ce n'est pas possible, même si tout vous intéresse...
+* Revoir plusieurs centaines de vidéos de talks, ce n'est pas possible, même si tout vous intéresse...
 	** Faites des choix : l'essentiel d'abord
-	** Vous pouvez *accélérer la vitesse de lecture d'une vidéo YouTube* (si si !)
+
+TIP: Gagnez du temps en *accélérant la vitesse de lecture de la vidéo*
 
 [NOTE.speaker]
 --
 Ne pas commencer par la vidéo 1 en se disant qu'on va réussir à regarder toutes les 235...
 
-Passer une vidéo en x1.5, cela permet de gagner pas mal de temps.
+Passer une vidéo en x1.5, cela permet de gagner pas mal de temps (sauf le speaker parle déjà vite à la base)
 --
 
 == A tester et autres bonus...

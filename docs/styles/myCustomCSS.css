@@ -7,6 +7,11 @@
     font-size: 80px;
 }
 
+/* we globally need a font a bit smaller */
+.reveal {
+    font-size: 38px;
+}
+
 /* specific color for bold characters */
 .reveal strong,
 .reveal b {
