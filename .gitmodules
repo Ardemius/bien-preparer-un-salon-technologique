@@ -1,0 +1,4 @@
+[submodule "docs/reveal.js"]
+	path = docs/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
+	branch = v3.9
