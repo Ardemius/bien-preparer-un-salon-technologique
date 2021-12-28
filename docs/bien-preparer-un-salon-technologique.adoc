@@ -4,6 +4,8 @@
 :imagesdir: images
 // Activate syntax highlighting with highlight.js
 :source-highlighter: highlightjs
+// We must enable experimental attribute to display Keyboard, button, and menu macros
+:experimental:
 :lb: pass:[<br> +]
 // reveal.js attributes
 :customcss: styles/myCustomCSS.css
@@ -12,8 +14,8 @@
 Thomas SCHWENDER
 
 icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="blue"] https://twitter.com/thomasschwender[@thomasschwender] +
-image:StarTECH-Java-logo.png[Logo StarTECH,200,200]
-image:Softeam-Group-logo.jpg[Logo Softeam Group,200,200]
+image:StarTECH-logo.png[Logo StarTECH]
+//image:softeam-docaposte-logo.png[Logo Softeam Docaposte,200]
 image:Softeam-software-crafter-logo.jpg[Logo Crafter,200,200]
 
 == Avant la conférence
@@ -23,15 +25,15 @@ Un salon de plusieurs jours ne se prépare pas une fois sa porte passée, mais p
 === On prend son temps pour lire le programme
 
 [%step]
-* Devoxx France 2018, ce sont *235* talks.
+* Certains salons (comme les Devoxx) montent à *plus de 200 talks*.
 * Cela ne se lit donc pas en 5 minutes...
 
 === On regarde quelles sont les entreprises présentes
 
 [%step]
-* Un salon est l'occasion de rencontrer des sociétés à la pointe de la technique, ainsi que des experts que l'on croise rarement.
+* Un salon est l'occasion de *rencontrer des sociétés* à la pointe de la technique, ainsi que *des experts* que l'on croise rarement.
 
-* Nouer de bons contacts avec eux, *échanger des coordonnées*, permet de [red]*développer son réseau*. +
+* Nouer de bons contacts avec eux, *échanger des coordonnées*, permet de *développer son réseau*. +
 Ce dernier vous permettra (très) probablement de trouver une solution à de futurs problèmes.
 
 [NOTE.speaker]
@@ -48,7 +50,7 @@ Quelques conseils :
 
 [%step]
 * *Garder 2, 3 thèmes communs* aux conférences auxquelles on assiste (Architecture, IoT, Data, etc.)
-* Vérifier quelles sont les conférences *non* filmées, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi de Devoxx France)
+* Vérifier quelles sont les *conférences non filmées*, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi de Devoxx France)
 
 [NOTE.speaker]
 --
@@ -62,7 +64,7 @@ Pour être efficace et éviter de trop se disperser, mon conseil, sélectionner 
 
 [%step]
 * *Garder quelques slots libres* pour pouvoir réseauter, discuter avec un speaker, sans stress, et sans trop de monde au stand.
-* *Garder 1 slot de libre pour manger !*
+* Garder 1 slot de libre pour *manger* !
 
 === !
 
@@ -97,6 +99,8 @@ Même si on aime le papier, le numérique, c'est *mieux* !
 
 [%step]
 * Avoir son *template* de prêt pour chacune des conférences de son planning permet de gagner du temps le jour J. 
++
+NOTE: Mettez-y les coordonnées du speaker et l'abstract de son talk.
 * Prévoir également une page pour recenser, au fur et à mesure, les *buzz words* du salon.
 
 === J-1 : derniers préparatifs
@@ -123,7 +127,7 @@ Prévoir d'*arriver le plus tôt possible*
 * afin de pouvoir récupérer son billet *sans faire la queue*
 * pour avoir plus de temps pour *commencer son tour des stands*
 * et, spécial Devoxx, pour pouvoir *s'installer dans l'amphi principal* 30 min à l'avance, histoire d'être sûr d'avoir une place ! +
-(et accessoirement pouvoir siroter tranquillement un café, vous en aurez besoin !)
+(et avoir le temps de siroter un 1er café... ☕😉)
 
 === A la tentation tu résisteras
 
@@ -142,18 +146,18 @@ Les goodies, ce n'est pas Pokemon... On ne joue pas à "attrapez les tous" 😉
 
 [%step]
 * *Taper vite* ! +
-Au diable le style et les doublons, l'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de simplement pouvoir se relire. 
+Au diable le style et les doublons, l'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de *simplement pouvoir se relire*. 
 
 === !
 
-Ne pas hésiter à *prendre des photos*
-
 [%step]
-* en évitant néanmoins le "1 photo par slide". +
-	Les photos sont là pour persister les *infos trop longues à taper*.
-
-TIP: la *synchronisation automatique* des photos sur Google Photo permet de les voir presque de suite sur son PC. +
-De plus, les photos téléchargées de Google Photos voient leur taille passer de quelques Mo à quelques centaines de Ko (bien pratique)
+* Ne pas hésiter à *prendre des photos*
+* En évitant néanmoins le syndrome "1 photo par slide". +
+Les photos sont là pour persister les *infos trop longues à taper*.
+* Dès qu'une photo est prise, l'indiquer dans ses notes. 
++
+NOTE: Utilisez un *nom générique* suivi d'un *numéro* que vous incrémenterez à chaque photo : +
+_"devoxx-france-2022_01.jpg"_
 
 [NOTE.speaker]
 --
@@ -162,6 +166,21 @@ L'essentiel est de pouvoir se relire, même si les notes sont criblées de faute
 Les notes ne doivent pas être la copie exacte des slides, qui sont généralement accessibles quelques temps après le salon. +
 Elles sont surtout là comme aide mémoire sur les concepts importants ou à creuser plus tard. +
 C'est l'endroit idéal pour persister les "tips" du speaker, qui ne seront peut-être pas dans les slides "officiels".
+--
+
+=== !
+
+[TIP]
+====
+La *synchronisation automatique* des photos sur Google Photo permet de les voir presque de suite sur son PC.
+
+De plus, les photos téléchargées de Google Photos voient leur taille passer de quelques Mo à quelques centaines de Ko (bien pratique)
+====
+
+[NOTE.speaker]
+--
+Via Google Photos, on peut donc revoir facilement un slide rapidement passé par le speaker. +
+Il est également très facile de télécharger les photos du talk en 1 fois, puis de les copier d'un coup dans son repo.
 --
 
 === !
@@ -199,7 +218,7 @@ On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout
 *Salle complète !*
 
 [%step]
-* on checke s'il n'y a pas une diffusion vidéo parallèle sur une salle annexe
+* on checke s'il n'y a pas une *diffusion vidéo parallèle* sur une salle annexe
 * ou on bascule sur sa conférence "plan B".
 
 == Après le salon
@@ -207,9 +226,9 @@ On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout
 === Mettre ses notes au propre, VITE !
 
 [%step]
-* Le mieux est d'avoir terminer sa prise de notes en même temps que le speaker quitte la salle 👍
-* S'il y a vraiment des modifications à apporter, occupez-vous-en dans les quelques jours suivant le talk.
-	** Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de *`Suppr`* final...
+* Le mieux est d'*avoir terminé* sa prise de notes en même temps que *le speaker quitte la salle* 👍
+* S'il y a vraiment des modifications à apporter, occupez-vous-en dans les *quelques jours suivant le talk*.
+	** Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de kbd:[Suppr] final...
 
 [NOTE.speaker]
 --
@@ -252,7 +271,26 @@ Ces derniers sont généralement mis en ligne peu de temps après le salon.
 * Revoir plusieurs centaines de vidéos de talks, ce n'est pas possible, même si tout vous intéresse...
 	** Faites des choix : l'essentiel d'abord
 
-TIP: Gagnez du temps en *accélérant la vitesse de lecture de la vidéo*
+// we use passthrough block to use native reveal.sj fragment class, out of list component, because not currently supported by asciidoctor-revealjs
+++++
+
+<div class="fragment">
+
+	<div class="admonitionblock tip">
+		<table>
+			<tbody>
+				<tr>
+					<td class="icon"><i class="fa fa-lightbulb-o" title="Tip"></i></td>
+					<td class="content">Gagnez du temps en <strong>accélérant la vitesse de lecture de la vidéo</strong>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</div>
+
+++++
 
 [NOTE.speaker]
 --
@@ -265,9 +303,9 @@ Passer une vidéo en x1.5, cela permet de gagner pas mal de temps (sauf le speak
 
 * Les *sketch notes* : un format de prise de notes graphique
 +
-NOTE: Un exemple sympa est disponible en fin de l'épisode des Cast Codeurs de Devoxx France 2018 :
+NOTE: Pour un exemple sympa, voir la https://youtu.be/lFkDUWcKPyU?t=2928[fin de l'épisode des Cast Codeurs de Devoxx France 2018] :
 
-video::lFkDUWcKPyU[youtube, start=2928]
+image::sketchnoting.jpg[width=800]
 
 == Ressources
 
@@ -275,9 +313,11 @@ video::lFkDUWcKPyU[youtube, start=2928]
 * *Code des slides* : https://github.com/Ardemius/bien-preparer-un-salon-technologique[github.com/Ardemius/bien-preparer-un-salon-technologique] +
 Ces slides ont été générés avec http://asciidoctor.org/[Asciidoctor] et le backend https://github.com/asciidoctor/asciidoctor-reveal.js[reveal.js]
 
+// You can force two adjacent lists apart by adding a line comment "//-" after the first list
 //- 
 
-* *Mes prises de notes de Devoxx France 2018* : https://github.com/Ardemius/meetups-talks-conferences-notes/tree/master/2018-devoxx-france
+* *Mon repo de prises de notes*, ou j'applique tous les conseils donnés 😉 : +
+https://github.com/Ardemius/meetups-talks-conferences-notes/
 
 == Des questions ?
 
