@@ -8,22 +8,22 @@ Talk ayant pour objectif d'expliquer l'état d'esprit à avoir pour aborder un s
 
 Les slides sont directement accessibles à l'URL https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html, à l'aide des *GitHub pages* du projet.
 
-Présenté au MeetUp https://www.meetup.com/fr-FR/SofteamTalks/[Softeam Talks] les :
-
-* https://www.meetup.com/fr-FR/SofteamTalks/events/252358274/[2018/07/19]
-
 == Création des slides
 
 Ces slides utilisent la stack technique http://asciidoctor.org/[*Asciidoctor*] + backend https://github.com/asciidoctor/asciidoctor-reveal.js[*reveal.js*]. +
 Pour plus d'informations sur cette dernière (installation, outils associés, exemples, etc.), se référer à https://github.com/Ardemius/asciidoctor-presentation#slides-rendering-with-revealjs[ma présentation] sur le sujet.
 
-Néanmoins, à l'aide de l'image *Docker Asciidoctor*, cela se résume maintenant à 2 petites commandes 😉 (une fois que vous avez cloné le repo) : 
+Néanmoins, à l'aide de l'image *Docker Asciidoctor*, cela se résume maintenant à 3 petites commandes 😉 : 
 
-1. lancement du container : 
+1. clone du repo avec récupération du contenu du submodule reveal.js : 
++
+	git clone --recursive https://github.com/Ardemius/bien-preparer-un-salon-technologique.git
+
+2. lancement du container : 
 +
 	docker run -it -v <path-to-the-cloned-repo>/docs:/documents/ asciidoctor/docker-asciidoctor
 
-2. génération des slides : 
+3. génération des slides : 
 +
 	asciidoctor-revealjs bien-preparer-un-salon-technologique.adoc -o slides.html
 
