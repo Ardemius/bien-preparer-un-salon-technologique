@@ -111,13 +111,13 @@ Je donne ce talk depuis plusieurs années à ma communauté technique, et je con
 Dans toutes les conférences où je me rends (ou presque), je vois beaucoup de personnes qui découvrent le programme au dernier moment, prennent des notes qu'ils n'arriveront pas à relire sur un petit carnet qui sera oublié dans les jours ou semaines qui suivront...
 Ce talk a pour but de montrer qu'avec un minimum d'organisation, et un effort très raisonnable, on peut tirer beaucoup plus d'un grand salon technologique.
 
-J'applique les conseils que je donne depuis des années, et la base de connaissances qui en découle est disponible sur GitHub :
-https://github.com/Ardemius/meetups-talks-conferences-notes
+J'applique les conseils que je donne depuis des années, et la **base de connaissances** qui en découle est disponible sur GitHub :
+[https://github.com/Ardemius/meetups-talks-conferences-notes](https://github.com/Ardemius/meetups-talks-conferences-notes)
 
-Presque tous les collègues à qui je l'ai montrée aimeraient disposer de quelque chose d'équivalent, MAIS pensent que c'est trop de travail.
-C'est très dommage car ce n'est PAS le cas, c'est ce que je montre dans ce talk 🙂
+Presque tous les collègues à qui je l'ai montrée aimeraient disposer de quelque chose d'équivalent, MAIS pensent que c'est **trop de travail**.
+C'est très dommage car **ce n'est PAS le cas**, c'est ce que je montre dans ce talk 🙂
 
-Mes slides sont déjà prêts, et mis à jour pour l'occasion.
+Mes **slides** sont déjà prêts, et mis à jour pour l'occasion.
 Ils sont disponibles sur GitHub : [https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html](https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html)
 
 (Si le code des slides vous intéresse, voici le repo : [https://github.com/Ardemius/bien-preparer-un-salon-technologique](https://github.com/Ardemius/bien-preparer-un-salon-technologique))
