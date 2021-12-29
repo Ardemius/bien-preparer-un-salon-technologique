@@ -1,0 +1,126 @@
+= Bien préparer un salon technologique : préparation pour le CFP de Devoxx France 2022
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: ./images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To number the sections of the table of contents
+:sectnums:
+// To turn off figure caption labels and numbers
+:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+// :caption:
+
+toc::[]
+
+== Overview
+
+Proposition de sujet (quickie) pour Devoxx France 2022
+
+Talk sur comment bien se préparer à un salon technologique : ce qu'il est bon d'en retirer, les pièges à éviter, etc.
+
+*Thème principal* : Agilité, Méthodologie & Tests
+
+*Niveau de la présentation* : Ouvert à tout niveau d'audience, débutant comme expert
+
+*Tags* : 
+
+    * Community
+    * Share
+    * Notes
+
+== Recherche du nom de la conférence
+
+* *Comment bien préparer son Devoxx ?* : on va garder ce titre
+* Comment bien préparer sa venue en conférence ?
+* Comment bien préparer un salon technologique ?
+
+== Abstract
+
+Talk ayant pour objectif d’expliquer l’état d’esprit à avoir pour aborder un salon technologique (comme un Devoxx) :
+
+    * ce qu’il est bon d’en retirer
+    * les "pièges" à éviter
+    * la préparation en amont du salon
+
+Un Devoxx France, ce sont plus de 200 conférences, et des dizaines de sociétés présentes.
+
+* Il est toujours possible d'y arriver les mains dans les poches, avec juste carnet et crayon, puis d'enchaîner les talks jusqu'au dernier jour, avant de finalement presque tout oublier quelques jours après...
+* Il est toujours possible d'aller à un grand salon comme Devoxx les mains dans les poches, avec peut-être juste un carnet et un crayon.
+
+* Mais il y aurait tellement mieux à faire pour tirer le maximum de ce type d'évènement, et faire en sorte qu'il vous serve encore plusieurs années plus tard.
+
+Au cours de ce talk, nous allons justement présenter plusieurs astuces d'organisation vous permettant d'arriver à ce résultat : 
+
+    * préparer son planning à l'avance, en isolant des thèmes et en gardant du temps pour aller discuter avec les experts et sociétés présentes
+    * prendre des notes rapidement et efficacement, et les persister en ligne de façon à se bâtir sa propre base de connaissance
+    * rédiger une synthèse au fur et à mesure des talks
+    * et bien d'autres encore
+
+.version finale
+----
+Un Devoxx France, ce sont plus de 200 conférences, et des dizaines de sociétés présentes.  
+Il est toujours possible d'y arriver les mains dans les poches, avec juste carnet et crayon, puis d'enchaîner les talks jusqu'au dernier jour, avant de finalement presque tout oublier quelques jours après...  
+Mais il y aurait tellement mieux à faire pour tirer le maximum de ce type d'évènement, et faire en sorte qu'il vous serve encore plusieurs années plus tard.
+
+Au cours de ce talk, nous allons justement présenter plusieurs astuces d'organisation vous permettant d'arriver à ce résultat : 
+
+    * préparer son planning à l'avance, en isolant des thèmes et en gardant du temps pour aller discuter avec les experts et sociétés présentes
+    * prendre des notes rapidement et efficacement, et les persister en ligne de façon à se bâtir sa propre base de connaissances
+    * rédiger une synthèse au fur et à mesure des talks
+    * et bien d'autres encore 😉
+----
+
+.version finale - markdown
+----
+Un Devoxx France, ce sont plus de **200 conférences**, et des **dizaines de sociétés présentes**.  
+Il est toujours possible d'y arriver **les mains dans les poches**, avec juste carnet et crayon, puis d'enchaîner les talks jusqu'au dernier jour, avant de finalement presque **tout oublier quelques jours après**...  
+Mais il y aurait tellement **mieux à faire** pour tirer le maximum de ce type d'évènement, et faire en sorte qu'il vous **serve encore plusieurs années plus tard**.
+
+Au cours de ce talk, nous allons justement présenter plusieurs **astuces d'organisation** vous permettant d'arriver à ce résultat :
+
+ - **préparer son planning** à l'avance, en isolant des thèmes et en gardant du temps pour aller discuter avec les experts et sociétés présentes
+ - **prendre des notes rapidement et efficacement**, et les persister en ligne de façon à se bâtir **sa propre base de connaissances** 
+ - rédiger une **synthèse** au fur et à mesure des talks 
+ - et bien d'autres encore 😉
+----
+
+== Message pour le comité
+
+.markdown
+----
+Je donne ce talk depuis plusieurs années à ma communauté technique, et je constate qu'il est toujours utile (et apprécié ! 😉 ) à chaque nouvelle session.
+
+Dans toutes les conférences où je me rends (ou presque), je vois beaucoup de personnes qui découvrent le programme au dernier moment, prennent des notes qu'ils n'arriveront pas à relire sur un petit carnet qui sera oublié dans les jours ou semaines qui suivront...
+Ce talk a pour but de montrer qu'avec un minimum d'organisation, et un effort très raisonnable, on peut tirer beaucoup plus d'un grand salon technologique.
+
+J'applique les conseils que je donne depuis des années, et la base de connaissances qui en découle est disponible sur GitHub :
+https://github.com/Ardemius/meetups-talks-conferences-notes
+
+Presque tous les collègues à qui je l'ai montrée aimeraient disposer de quelque chose d'équivalent, MAIS pensent que c'est trop de travail.
+C'est très dommage car ce n'est PAS le cas, c'est ce que je montre dans ce talk 🙂
+
+Mes slides sont déjà prêts, et mis à jour pour l'occasion.
+Ils sont disponibles sur GitHub : [https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html](https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html)
+
+(Si le code des slides vous intéresse, voici le repo : [https://github.com/Ardemius/bien-preparer-un-salon-technologique](https://github.com/Ardemius/bien-preparer-un-salon-technologique))
+
+Merci d'avance pour vos retours 🙂 
+----
