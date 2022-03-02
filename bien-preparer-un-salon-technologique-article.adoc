@@ -1,0 +1,486 @@
+= Comment bien préparer son Devoxx France ?
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: ./images
+:source-highlighter: highlightjs
+// We must enable experimental attribute to display Keyboard, button, and menu macros
+:experimental:
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To number the sections of the table of contents
+//:sectnums:
+// Add an anchor with hyperlink before the section title
+:sectanchors:
+// To turn off figure caption labels and numbers
+:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+// :caption:
+
+toc::[]
+
+Un Devoxx France, ce sont *plus de 200 conférences*, et *des dizaines de sociétés présentes*. +
+Il est toujours possible d'y arriver les mains dans les poches, avec juste carnet et crayon, puis d'enchaîner les talks jusqu'au dernier jour, avant de finalement presque tout oublier quelques jours après... +
+Mais il y aurait tellement mieux à faire pour tirer le maximum de ce type d'évènement, et faire en sorte qu'il *vous serve encore plusieurs années plus tard*.
+
+Dans cet article, je vais vous présenter plusieurs astuces d'organisation vous permettant, avec un minimum d'effort, d'arriver à ce résultat :
+
+    * *préparer son planning à l'avance*, en isolant des thèmes et en gardant du temps pour aller discuter avec les experts et sociétés présentes
+    * *prendre des notes rapidement et efficacement*, et les persister en ligne de façon à se *bâtir sa propre base de connaissances*
+    * *rédiger une synthèse* au fur et à mesure des talks
+    * et bien d'autres encore 😉
+
+Allez, c'est parti !
+
+== Avant la conférence
+
+Un grand salon technologique s'étalant sur plusieurs jours ne se prépare pas une fois sa porte passée, mais *plusieurs jours à l'avance*.
+
+=== On prend son temps pour lire le programme
+
+Certains salons (comme les Devoxx) montent à *plus de 200 talks*. +
+-> Leur programme ne se lit donc pas en 5 minutes, même en lisant très vite...
+
+=== On regarde quelles sont les entreprises présentes
+
+A l'heure actuelle, quasiment tous les talks d'un salon sont enregistrés, et vous pourrez presque toujours accéder à volonté et quand vous le souhaitez au replay sur une plateforme X ou Y. +
+Par contre, ce que ces plateformes ne vous permettront *PAS* de faire, c'est d'*aller à la rencontre des autres personnes* présentes sur place.
+
+Un salon est avant tout l'occasion de *rencontrer des sociétés* à la pointe de la tech, ainsi que *des experts* que l'on croise rarement. +
+Nouer de bons contacts avec eux, *échanger des coordonnées*, permet de *développer son réseau*. +
+Ce dernier vous permettra (très) probablement de trouver une solution à de futurs problèmes.
+
+____
+Tu cherches un architecte Data ? Tiens, voici ma carte...
+____
+
+*RESEAUTER* est hyper important dans notre métier. +
+Seul, on ne peut pas et ne pourra jamais tout savoir, mais ensemble, on trouvera beaucoup plus facilement une solution à nos problèmes 😉
+
+=== On prépare son propre planning 
+
+Quelques conseils :
+
+	* *Garder 2, 3 thèmes communs* aux conférences auxquelles on assiste. 
++
+[TIP]
+====
+Les thèmes proposés à Devoxx sont nombreux (Architecture, Data, Cloud, IA, etc.). +
+Pour être efficace et éviter de trop se disperser, sélectionnez un petit nombre de thèmes, cela vous permettra de *plus facilement trouver les grandes tendances* derrière l'un d'eux 😉
+====
+
+	* Vérifier quelles sont les *conférences non filmées*, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi)
+	* *Garder quelques slots libres* pour pouvoir *réseauter*, discuter avec un speaker, sans stress, et sans trop de monde au stand.
+	* Ne pas hésiter à choisir *plusieurs conférences sur un même créneau horaire* (en cas de salle complète le jour J)
++
+[NOTE]
+====
+Si le speaker est une "rock star", la conférence sera probablement très demandée, et vite complète le jour J...
+====
+
+	* Garder 1 slot de libre pour *manger* ! 🍕🥙
+
+=== On prépare ses prises de notes
+
+Même si on aime le papier, le *numérique*, c'est *VRAIMENT mieux* ! +
+Allez, soyons honnêtes, les notes prises à toute vitesse sur un petit calepin, vous les relisez vraiment (et y arrivez-vous seulement) ? Et vous saurez vraiment retrouver le calepin dans 3 ou 6 mois ? 😜
+
+.PC ou tablette
+[NOTE]
+====
+Là, c'est à vous de choisir en fonction de votre matériel. +
+Une tablette a une meilleure autonomie, mais un laptop permet une frappe plus rapide (mon avis), ce qui est un gros avantage. +
+Alors bien sûr, si votre laptop pèse 5 kilos avec une batterie qui tient 1 heure, ben ne le prenez pas... 😅
+====
+
+Concernant le *lieu où stocker ses notes*, les héberger *en ligne sur GitHub* (ou assimilé) permet de les rendre facilement accessibles, et de disposer d'un *moteur de recherche*.
+
+.Moteur de recherche efficace pour vos notes = KILLING feature
+[NOTE]
+====
+Mise en situation : 6 mois après le Devoxx, au boulot, survient un problème avec Kubernetes (au hasard...) et vous savez que vous en avez déjà entendu parler en conf. +
+C'est quelque part dans vos notes, vous en êtes SÛRRRR.
+
+Là, 2 situations : 
+
+	* soit elles sont dans le petit calepin précédent et, le plus probable après avoir retourné la maison, c'est larmes et Kleenex 😭😭😭
+	* soit elles sont sur GitHub, et en pas 10 sec vous les avez retrouvées 👍🤘
+====
+
+==== Votre propre base de connaissance
+
+En stockant vos notes sur ce type de plateforme, vous allez progressivement bâtir *votre propre base de connaissance*. +
+Une base que vous connaîtrez d'autant mieux que c'est vous qui l'aurez construite spécifiquement pour vous, avec votre propre façon de penser et de vous organiser.
+
+Cette base c'est un *outil de travail au quotidien*, qui vous permet d'être beaucoup plus serein quant à votre veille et votre curation de contenu (_"ça je l'ai vu ou lu, je sais que j'ai pris des notes, c'est dans ma base, dans 30 sec je l'ai"_)
+
+Autre avantage, votre base de connaissances sur GitHub servira également de *vitrine à votre veille technologique*. +
+En entretien, le poids n'est pas le même entre juste dire que "l'on fait de la veille et va a des confs", et montrer à la personne en face que l'on a tout un repo bien structuré sur le sujet 👍
+
+Autre conseil, pour vos prises de notes, choisissez un langage adapté, permettra une saisie *rapide* et *fiable*, tout en garantissant un *rendu de qualité*. +
+(Par "fiable", j'entends par exemple que toute la mise en forme de votre doc ne se mette pas à délirer à la 1ere mauvaise tabulation sur un titre...) +
+Pour cela, Markdown (`.md`), ou mieux *Asciidoctor* (`.adoc`), *c'est TOP* ! +
+Leur prise en main est simple, ils ne nécessitent rien de plus qu'un éditeur de texte, et nombreux sont ceux proposant une extension ajoutant la coloration syntaxique (je suis fan du https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[support d'Asciidoctor par VS Code]). +
+De plus, le *rendu* de ces 2 langages est *nativement présent sur GitHub* et la plupart des plateformes d'hébergement de code (GitLab, BitBucket, etc.)
+
+[NOTE]
+====
+Vous voyez ce rendu tous les jours via les `README.md` ou `README.adoc` de tous les repo GitHub 😉 +
+Jetez un oeil au code source sous-jacent, cela n'a vraiment rien de compliqué.
+
+La https://docs.asciidoctor.org/asciidoc/latest/[documentation d'Asciidoctor] est également extrêmement bien faite, avec un https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[guide rapide] vous permettant de débuter en quelques minutes.
+====
+
+Pour un *exemple de base de connaissance*, vous pouvez jeter un oeil à la mienne sur GitHub : https://github.com/Ardemius/meetups-talks-conferences-notes +
+
+Il s'agit d'un unique repo dans lequel je stocke toutes mes notes de conférences. +
+Suivant la taille de l'évènement, conférence unique ou salon, je crée soit un fichier soit un dossier, que je *préfixe toujours par la date de l'évènement*. +
+Cela me permet de connaître dès la recherche GitHub la "fraîcheur" de mes notes 😉
+
+[TIP]
+====
+Chose que je fais de plus en plus ces derniers temps, *stocker toutes les notes des talks d'un même salon dans un même fichier*. +
+Le but est d'être toujours *plus efficace dans la recherche d'informations*, car dès lors vous pourrez balayer tout le salon avec un simple kbd:[Ctrl+f] 👍 +
+(Pour un exemple de cette _Single Page Documentation_, voir mes notes de https://github.com/Ardemius/meetups-talks-conferences-notes/tree/master/202109-devoxx-france[Devoxx France 2021])
+====
+
+==== Créer à l'avance ses templates de notes
+
+Une astuce pour gagner du temps, *structurez toujours vos prises de notes de la même façon*.
+
+Une fois que le speaker a commencé son talk, vous devez pouvoir prendre vos notes sans avoir à vous soucier du niveau des titres, de la table des matières, etc. +
+Pour cela, créez vous à l'avance *un même template* que vous utiliserez pour toutes vos prises de notes.
+
+En Asciidoctor, un *template minimal* pourrait se limiter à : 
+
+[source,asciidoctor]
+----
+= Comment bien préparer son Devoxx France ?
+:imagesdir: ./images // <1>
+:toc: // <2> 
+
+== Abstract
+
+Abstract du talk et infos sur le speaker
+
+== Notes
+
+Mes notes sur le talk
+
+=== Thème 1
+
+foo
+
+=== Thème 2
+
+bar
+----
+<1> Stocker toutes vos photos du talk dans un même répertoire vous fera gagner du temps 😉 
+<2> Et une table des matières est toujours pratique
+
+Ce qui donnera lieu au *rendu suivant* sur GitHub : 
+
+image::minimal-asciidoctor-template.jpg[width=800]
+
+Vous pouvez bien sûr *customiser ce template* pour prendre à des besoins spécifiques, mais le précédent est déjà parfaitement fonctionnel et suffisant. 
+
+.A titre d'exemple, voici le mien à la date d'aujourd'hui : 
+[%collapsible]
+====
+[source,asciidoctor]
+----
+= Comment bien préparer son Devoxx France ?
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: ./images
+:source-highlighter: highlightjs
+// We must enable experimental attribute to display Keyboard, button, and menu macros
+:experimental:
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To number the sections of the table of contents
+//:sectnums:
+// Add an anchor with hyperlink before the section title
+:sectanchors:
+// To turn off figure caption labels and numbers
+:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+// :caption:
+
+toc::[]
+
+== Abstract
+
+Abstract du talk et infos sur le speaker
+
+== Notes
+
+Mes notes sur le talk
+
+=== Thème 1
+
+foo
+
+=== Thème 2
+
+bar
+----
+====
+
+Toujours pour gagner du temps, comme vous avez déjà préparé votre planning, n'hésitez pas à créer à l'avance les templates de notes de tous les talks auxquels vous allez assister. +
+
+TIP: Ajoutez-y leur abstract, ainsi que les coordonnées et informations sur le speaker 😉 
+
+=== J-1 : derniers préparatifs
+
+[%step]
+* Téléphone, PC *rechargés* +
+-> Avoir sur soi son adaptateur secteur pour recharger le PC à une pause...
+* Configurer un *pont Wifi* entre son téléphone et son PC.
+* Récupérer le *plan des lieux*, avec les salles et les stands des exposants.
+* *Avoir son programme sur soi*, facilement accessible. 
++
+NOTE: Mon conseil : le sauvegarder sur GitHub à côté de ses templates de notes.
+
+[NOTE.speaker]
+--
+Le pont Wifi est particulièrement utile quand aucun Wifi public n'est accessible ou que notre réception 4G est meilleure.
+--
+
+== Jour J !
+
+Prévoir d'*arriver le plus tôt possible*
+
+[%step]
+* afin de pouvoir récupérer son billet *sans faire la queue*
+* pour avoir plus de temps pour *commencer son tour des stands*
+* et, spécial Devoxx, pour pouvoir *s'installer dans l'amphi principal* 30 min à l'avance, histoire d'être sûr d'avoir une place ! +
+(et avoir le temps de siroter un 1er café... ☕😉)
+
+=== A la tentation tu résisteras
+
+Qu'ils sont beaux et sympas tous ces *goodies* et jeux proposés par les exposants !
+
+[%step]
+* Rester *raisonnable*, on peut y passer le salon...
+* Et ce serait dommage de se retrouver, à cause de ces 2 %#&$! minutes de plus, devant des portes closes car salle complète...
+
+[NOTE.speaker]
+--
+Les goodies, ce n'est pas Pokemon... On ne joue pas à "attrapez les tous" 😉
+--
+
+=== Prise de notes
+
+[%step]
+* *Taper vite* ! +
+Au diable le style et les doublons, l'objectif est de saisir les informations intéressantes, *les astuces du speaker*, et de *simplement pouvoir se relire*. 
+
+=== !
+
+[%step]
+* Ne pas hésiter à *prendre des photos*
+* En évitant néanmoins le syndrome "1 photo par slide". +
+Les photos sont là pour persister les *infos trop longues à taper*.
+* Dès qu'une photo est prise, l'indiquer dans ses notes. 
++
+NOTE: Utilisez un *nom générique* suivi d'un *numéro* que vous incrémenterez à chaque photo : +
+_"devoxx-france-2022_01.jpg"_
+
+[NOTE.speaker]
+--
+L'essentiel est de pouvoir se relire, même si les notes sont criblées de fautes sur le coup, ce n'est pas un exercice de style.
+
+Les notes ne doivent pas être la copie exacte des slides, qui sont généralement accessibles quelques temps après le salon. +
+Elles sont surtout là comme aide mémoire sur les concepts importants ou à creuser plus tard. +
+C'est l'endroit idéal pour persister les "tips" du speaker, qui ne seront peut-être pas dans les slides "officiels".
+--
+
+=== !
+
+[TIP]
+====
+La *synchronisation automatique* des photos sur Google Photo permet de les voir presque de suite sur son PC.
+
+De plus, les photos téléchargées de Google Photos voient leur taille passer de quelques Mo à quelques centaines de Ko (bien pratique)
+====
+
+[NOTE.speaker]
+--
+Via Google Photos, on peut donc revoir facilement un slide rapidement passé par le speaker. +
+Il est également très facile de télécharger les photos du talk en 1 fois, puis de les copier d'un coup dans son repo.
+--
+
+=== !
+
+Etre attentif aux *questions / réponses* en fin de conférences.
+
+[%step]
+Ces dernières peuvent être de vraies mines d'or, et ne seront *pas* dans les slides.
+
+=== Le "buzz words" counter
+
+[%step]
+* Un moyen simple de détecter les grandes tendances du salon est de *noter les technos les plus fréquemment citées*.
+* Cela peut se commencer dès la lecture du programme (avant le salon)
+
+* Prévoir également une page pour recenser, au fur et à mesure, les *buzz words* du salon.
+
+=== Les impondérables
+
+=== !
+
+*Plus de batterie !*
+
+[%step]
+* On passe aux notes papier.
+* Après le salon, si on n'a pas le temps de les retaper, ne surtout *PAS* les jeter, mais *les prendre en photo*, et les sauvegarder en y ajoutant simplement quelques *labels* (feront office de mots clés pour le moteur de recherche)
+
+[NOTE.speaker]
+--
+Rares sont les PCs qui tiennent une journée d'autonomie. Si l'on ne peut pas recharger à une pause, le midi, la panne est inévitable.
+
+On ne jette *JAMAIS* ses notes papier, certaines infos, même prises sur un bout de serviette peuvent valoir de l'or.
+--
+
+=== !
+
+*Salle complète !*
+
+[%step]
+* on checke s'il n'y a pas une *diffusion vidéo parallèle* sur une salle annexe
+* ou on bascule sur sa conférence "plan B".
+
+== Après le salon
+
+=== Mettre ses notes au propre, VITE !
+
+[%step]
+* Le mieux est d'*avoir terminé* sa prise de notes en même temps que *le speaker quitte la salle* 👍
+* S'il y a vraiment des modifications à apporter, occupez-vous-en dans les *quelques jours suivant le talk*.
+	** Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s'y mettre, jusqu'au coup de kbd:[Suppr] final...
+
+[NOTE.speaker]
+--
+Donner l'exemple de mes repo de prises de notes : au moment où le speaker quitte la salle, j'ai généralement déjà push sur GitHub. +
+Ce sont certes des notes "brouillons", mais elles sont suffisantes pour être exploiter plus tard, et c'est bien la 1ere chose qu'on leur demande. +
+Après, il est toujours possible de créer après coup un article mieux fini sur la base de ces 1eres notes.
+--
+
+=== Faire une synthèse
+
+Point *CA-PI-TAL*, c'est ce que vous devez retirer du salon.
+
+=== !
+
+[%step]
+* Quelles sont les technos qui ont *le vent en poupe* ?
+* Sont-elles déjà matures, ou est-ce du "bleeding edge" ?
+* Quelles sont celles qui sont en *fin de vie*, ou qu'il est préférable d'éviter ?
+* Quels sont les *speakers à suivre* sur Twitter (ou autre) pour avoir les infos les plus fraîches sur une techno ?
+* Quelle est *LA* tendance globale
+
+[NOTE.speaker]
+--
+"JUSTE" = 3, 4 jours et pas 30 ou 40 jours...
+
+De nombreuses conférences ne donnent finalement que des "points d'entrées" sur une techno. +
+A vous de détecter celles qui sont vraiment intéressantes, et sur lesquelles il faudra investir du temps et creuser.
+
+Exemple : Côté tendance globale pour Devoxx France 2018 : plateformes "tout-en-un", Kafka partout et explosion des technos à suivre
+
+Rédiger la synthèse à côté des buzz words, c'est pratique 😉
+--
+
+=== Les slides et vidéos
+
+Ces derniers sont généralement mis en ligne peu de temps après le salon.
+
+[%step]
+* *YouTube*, *SlideShare* et *Speaker Deck* sont les plateformes les plus courantes
+* Revoir plusieurs centaines de vidéos de talks, ce n'est pas possible, même si tout vous intéresse...
+	** Faites des choix : l'essentiel d'abord
+
+// we use passthrough block to use native reveal.sj fragment class, out of list component, because not currently supported by asciidoctor-revealjs
+++++
+
+<div class="fragment">
+
+	<div class="admonitionblock tip">
+		<table>
+			<tbody>
+				<tr>
+					<td class="icon"><i class="fa fa-lightbulb-o" title="Tip"></i></td>
+					<td class="content">Gagnez du temps en <strong>accélérant la vitesse de lecture de la vidéo</strong>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+</div>
+
+++++
+
+[NOTE.speaker]
+--
+Ne pas commencer par la vidéo 1 en se disant qu'on va réussir à regarder toutes les 235...
+
+Passer une vidéo en x1.5, cela permet de gagner pas mal de temps (sauf le speaker parle déjà vite à la base)
+--
+
+== A tester et autres bonus...
+
+* Les *sketch notes* : un format de prise de notes graphique
++
+NOTE: Pour un exemple sympa, voir la https://youtu.be/lFkDUWcKPyU?t=2928[fin de l'épisode des Cast Codeurs de Devoxx France 2018] :
+
+image::sketchnoting.jpg[width=800]
+
+== Ressources
+
+* *Slides* : https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html[ardemius.github.io/bien-preparer-un-salon-technologique/slides.html]
+* *Code des slides* : https://github.com/Ardemius/bien-preparer-un-salon-technologique[github.com/Ardemius/bien-preparer-un-salon-technologique] +
+Ces slides ont été générés avec http://asciidoctor.org/[Asciidoctor] et le backend https://github.com/asciidoctor/asciidoctor-reveal.js[reveal.js]
+
+// You can force two adjacent lists apart by adding a line comment "//-" after the first list
+//- 
+
+* *Mon repo de prises de notes*, ou j'applique tous les conseils donnés 😉 : +
+https://github.com/Ardemius/meetups-talks-conferences-notes/
+
+== Des questions ?
+
+== Merci !
+
