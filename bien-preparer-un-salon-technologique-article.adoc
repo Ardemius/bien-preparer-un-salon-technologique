@@ -71,7 +71,7 @@ Nouer de bons contacts avec eux, *échanger des coordonnées*, permet de *dével
 Ce dernier vous permettra (très) probablement de trouver une solution à de futurs problèmes.
 
 ____
-Tu cherches un architecte Data ? Tiens, voici ma carte...
+Tu cherches un expert Python ? Tiens, voici ma carte...
 ____
 
 *RESEAUTER* est hyper important dans notre métier. +
