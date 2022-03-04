@@ -33,7 +33,9 @@ endif::[]
 // :caption:
 
 [.normal]
-{author} : icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="blue"] https://twitter.com/thomasschwender[@thomasschwender]
+// Font Awesome is not rendered on GitHub because of CORS potential issue, using classic images instead of icons
+//{author} : icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="blue"] https://twitter.com/thomasschwender[@thomasschwender]
+{author} : image:github-icon-transparent.png[width=20] https://github.com/Ardemius/[GitHub] / image:twitter-icon-transparent.png[width=20] https://twitter.com/thomasschwender[@thomasschwender]
 
 toc::[]
 
