@@ -70,7 +70,7 @@ Certains salons (comme les Devoxx) montent à *plus de 200 talks*. +
 A l'heure actuelle, quasiment tous les talks d'un salon sont enregistrés, et vous pourrez presque toujours accéder à volonté et quand vous le souhaitez au replay sur une plateforme X ou Y. +
 Par contre, ce que ces plateformes ne vous permettront *PAS* de faire, c'est d'*aller à la rencontre des autres personnes* présentes sur place.
 
-Un salon est avant tout l'occasion de *rencontrer des sociétés* à la pointe de la tech, ainsi que *des experts* que l'on croise rarement. +
+Un salon est avant tout l'occasion de https://www.devoxx.fr/sponsors-2020-2/[*rencontrer des sociétés*] à la pointe de la tech, ainsi que *des experts* que l'on croise rarement. +
 Nouer de bons contacts avec eux, *échanger des coordonnées*, permet de *développer son réseau*. +
 Ce dernier vous permettra (très) probablement de trouver une solution à de futurs problèmes.
 
