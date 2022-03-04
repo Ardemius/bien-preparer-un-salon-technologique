@@ -67,7 +67,7 @@ Certains salons (comme les Devoxx) montent à *plus de 200 talks*. +
 
 === On regarde quelles sont les entreprises présentes
 
-A l'heure actuelle, quasiment tous les talks d'un salon sont enregistrés, et vous pourrez presque toujours accéder à volonté et quand vous le souhaitez au replay sur une plateforme X ou Y. +
+A l'heure actuelle, quasiment tous les talks d'un salon sont enregistrés, et vous pourrez presque toujours accéder à volonté et quand vous le souhaitez au replay sur une plateforme X ou Y (sur https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A[YouTube] pour Devoxx France). +
 Par contre, ce que ces plateformes ne vous permettront *PAS* de faire, c'est d'*aller à la rencontre des autres personnes* présentes sur place.
 
 Un salon est avant tout l'occasion de *rencontrer des sociétés* à la pointe de la tech, ainsi que *des experts* que l'on croise rarement. +
