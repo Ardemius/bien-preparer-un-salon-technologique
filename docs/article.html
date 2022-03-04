@@ -445,7 +445,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Comment bien préparer son Devoxx France ?</h1>
 <div class="details">
 <span id="author" class="author">Thomas SCHWENDER</span><br>
-<span id="email" class="email"><span class="image"><img src="./images_article/github-icon-transparent.png" alt="github icon transparent" width="18"></span> <a href="https://github.com/Ardemius/">GitHub</a> / <span class="image"><img src="./images_article/twitter-icon-transparent.png" alt="twitter icon transparent" width="18"></span> <a href="https://twitter.com/thomasschwender">@thomasschwender</a></span><br>
+<span id="email" class="email"><span class="icon"><i class="fa fa-github"></i></span> <a href="https://github.com/Ardemius/">GitHub</a> / <span class="icon aqua"><i class="fa fa-twitter"></i></span> <a href="https://twitter.com/thomasschwender">@thomasschwender</a></span><br>
 </div>
 </div>
 <div id="content">
@@ -642,7 +642,7 @@ Alors bien sûr, si votre laptop pèse 5 kilos avec une batterie qui tient 1 heu
 <div class="title">Moteur de recherche efficace pour vos notes = KILLING feature</div>
 <div class="paragraph">
 <p>Mise en situation : 6 mois après le Devoxx, au boulot, survient un problème avec Kubernetes (au hasard&#8230;&#8203;) et vous savez que vous en avez déjà entendu parler en conf.<br>
-C&#8217;est quelque part dans vos notes, vous en êtes SÛRRRR.</p>
+C&#8217;est quelque part dans vos notes, vous en êtes SÛRRRRSSS.</p>
 </div>
 <div class="paragraph">
 <p>Là, 2 situations :</p>
@@ -665,7 +665,7 @@ C&#8217;est quelque part dans vos notes, vous en êtes SÛRRRR.</p>
 <h4 id="_votre_propre_base_de_connaissance"><a class="anchor" href="#_votre_propre_base_de_connaissance"></a>Votre propre base de connaissance</h4>
 <div class="paragraph">
 <p>En stockant vos notes sur ce type de plateforme, vous allez progressivement bâtir <strong>votre propre base de connaissance</strong>.<br>
-Une base que vous connaîtrez d&#8217;autant mieux que c&#8217;est vous qui l&#8217;aurez construite spécifiquement pour vous, avec votre propre façon de penser et de vous organiser.</p>
+Une base que vous connaîtrez d&#8217;autant mieux que c&#8217;est vous qui l&#8217;aurez <strong>construite spécifiquement pour vous</strong>, avec votre propre façon de penser et de vous organiser.</p>
 </div>
 <div class="paragraph">
 <p>Cette base c&#8217;est un <strong>outil de travail au quotidien</strong>, qui vous permet d&#8217;être beaucoup plus serein quant à votre veille et votre curation de contenu (<em>"ça je l&#8217;ai vu ou lu, je sais que j&#8217;ai pris des notes, c&#8217;est dans ma base, dans 30 sec je l&#8217;ai"</em>)</p>
@@ -675,7 +675,7 @@ Une base que vous connaîtrez d&#8217;autant mieux que c&#8217;est vous qui l&#8
 En entretien, le poids n&#8217;est pas le même entre juste dire que "l&#8217;on fait de la veille et va a des confs", et montrer à la personne en face que l&#8217;on a tout un repo bien structuré sur le sujet 👍</p>
 </div>
 <div class="paragraph">
-<p>Autre conseil, pour vos prises de notes, choisissez un langage adapté, permettra une saisie <strong>rapide</strong> et <strong>fiable</strong>, tout en garantissant un <strong>rendu de qualité</strong>.<br>
+<p>Autre conseil, pour vos prises de notes, choisissez un <strong>langage adapté</strong>, permettra une saisie <strong>rapide</strong> et <strong>fiable</strong>, tout en garantissant un <strong>rendu de qualité</strong>.<br>
 (Par "fiable", j&#8217;entends par exemple que toute la mise en forme de votre doc ne se mette pas à délirer à la 1ere mauvaise tabulation sur un titre&#8230;&#8203;)<br>
 Pour cela, Markdown (<code>.md</code>), ou mieux <strong>Asciidoctor</strong> (<code>.adoc</code>), <strong>c&#8217;est TOP</strong> !<br>
 Leur prise en main est simple, ils ne nécessitent rien de plus qu&#8217;un éditeur de texte, et nombreux sont ceux proposant une extension ajoutant la coloration syntaxique (je suis fan du <a href="https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode">support d&#8217;Asciidoctor par VS Code</a>).<br>
@@ -732,14 +732,14 @@ Le but est d&#8217;être toujours <strong>plus efficace dans la recherche d&#821
 </div>
 <div class="paragraph">
 <p>Une fois que le speaker a commencé son talk, vous devez pouvoir prendre vos notes sans avoir à vous soucier du niveau des titres, de la table des matières, etc.<br>
-Pour cela, créez vous à l&#8217;avance <strong>un même template</strong> que vous utiliserez pour toutes vos prises de notes.</p>
+Pour cela, créez-vous à l&#8217;avance <strong>un même template</strong> que vous utiliserez pour toutes vos prises de notes.</p>
 </div>
 <div class="paragraph">
 <p>En Asciidoctor, un <strong>template minimal</strong> pourrait se limiter à :</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoctor hljs" data-lang="asciidoctor">= Comment bien préparer son Devoxx France ?
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">= Comment bien préparer son Devoxx France ?
 :imagesdir: ./images <i class="conum" data-value="1"></i><b>(1)</b>
 :toc: <i class="conum" data-value="2"></i><b>(2)</b>
 
@@ -781,14 +781,14 @@ bar</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Vous pouvez bien sûr <strong>customiser ce template</strong> pour prendre à des besoins spécifiques, mais le précédent est déjà parfaitement fonctionnel et suffisant.</p>
+<p>Vous pouvez bien sûr <strong>customiser ce template</strong> pour répondre à des besoins spécifiques, mais le précédent est déjà parfaitement fonctionnel et suffisant.</p>
 </div>
 <details>
 <summary class="title">A titre d&#8217;exemple, voici le mien à la date d&#8217;aujourd&#8217;hui :</summary>
 <div class="content">
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-asciidoctor hljs" data-lang="asciidoctor">= Comment bien préparer son Devoxx France ?
+<pre class="highlightjs highlight"><code class="language-asciidoc hljs" data-lang="asciidoc">= Comment bien préparer son Devoxx France ?
 Thomas SCHWENDER &lt;https://github.com/ardemius[@ardemius]&gt;
 // Handling GitHub admonition blocks icons
 :icons: font
@@ -863,7 +863,7 @@ Cela vous permettra plus tard de plus facilement vous rappeler du thème précis
 <div class="title">Une astuce pour avoir facilement son planning à côté de ses notes</div>
 <div class="paragraph">
 <p>Si vous partez sur une <strong>SPD</strong> (<em>Single Page Documentation</em> comme expliqué plus haut), vous pouvez très facilement y ajouter votre planning.<br>
-Pour ce faire, il suffit de <strong>préfixer les titres de section</strong>, correspondant au talks auxquelles vous allez assister, par les horaires et salles de ces derniers, et le tour est joué 🙂</p>
+Pour ce faire, il suffit de <strong>préfixer les titres de section</strong>, correspondant au talks auxquels vous allez assister, par les horaires et salles de ces derniers, et le tour est joué 🙂</p>
 </div>
 <div class="paragraph">
 <p>Voici ce que cela donne avec mes notes de <a href="https://github.com/Ardemius/meetups-talks-conferences-notes/tree/master/202109-devoxx-france">Devoxx France 2021</a> :<br>
@@ -909,7 +909,8 @@ Et <strong>ne pas oublier ses adaptateurs secteur</strong> pour pouvoir les rech
 </li>
 <li>
 <p><strong>Avoir son programme sur soi</strong>, facilement accessible.<br>
-(Ce qui devrait être bon si vous avez suivi l&#8217;astuce de la précédente section 😉)</p>
+(Ce qui devrait être bon si vous avez suivi l&#8217;astuce de la section précédente.<br>
+Il vous suffit dès lors d&#8217;ouvrir votre SPD sur votre smartphone et c&#8217;est réglé 😉)</p>
 </li>
 <li>
 <p>En cas de problème de batterie, avoir quand même sur soi un <strong>calepin et un stylo</strong>&#8230;&#8203; 😅</p>
@@ -1009,7 +1010,7 @@ Aussi, utilisez un <strong>nom générique</strong> suivi d&#8217;un <strong>num
 Alors, je n&#8217;ai pas d&#8217;actions chez Google, et il existe sûrement d&#8217;autres moyens de le faire, il n&#8217;empêche que je trouve que c&#8217;est un <strong>moyen très simple d&#8217;avoir les photos de son smartphone quelques secondes après sur son PC</strong> via son compte Google et Google Photos.</p>
 </div>
 <div class="paragraph">
-<p>Autre fonctionnalité pratique et faisant gagner du temps, les photos téléchargées de Google Photos voient <strong>leur taille passer de quelques Mo à quelques centaines de Ko</strong>.
+<p>Autre fonctionnalité pratique et faisant gagner du temps, les photos téléchargées depuis Google Photos voient <strong>leur taille passer de quelques Mo à quelques centaines de Ko</strong>.
 Une opération manuelle de moins à réaliser 🙂</p>
 </div>
 </td>
@@ -1018,7 +1019,7 @@ Une opération manuelle de moins à réaliser 🙂</p>
 </div>
 </li>
 <li>
-<p>Etre attentif aux <strong>questions / réponses</strong> en fin de conférences.<br>
+<p>Etre attentif aux <strong>questions / réponses</strong> en fin de conférence.<br>
 &#8594; Ces dernières peuvent être de vraies <strong>mines d&#8217;or</strong>, et ne seront <strong>PAS</strong> dans les slides.</p>
 </li>
 </ul>
@@ -1043,7 +1044,7 @@ Cela peut se commencer dès la lecture du programme (quand on commence à compte
 <p>On sort calepin et stylo et <strong>on passe aux notes papier</strong>.</p>
 </li>
 <li>
-<p>Après le salon, si on n&#8217;a pas le temps de les retaper, ne surtout <strong>PAS</strong> les jeter, mais <strong>les prendre en photo</strong>, et les sauvegarder en y ajoutant simplement quelques <strong>labels</strong> (qui feront office de mots clés pour le moteur de recherche)</p>
+<p>Après le salon, si on n&#8217;a pas le temps de les retaper, ne surtout <strong>PAS</strong> les jeter, mais <strong>les prendre en photo</strong>, et les incorporer à ses notes en y ajoutant simplement quelques <strong>labels</strong> (qui feront office de mots clés pour le moteur de recherche)</p>
 <div class="admonitionblock tip">
 <table>
 <tr>
@@ -1053,7 +1054,7 @@ Cela peut se commencer dès la lecture du programme (quand on commence à compte
 <td class="content">
 <div class="title">Une prise secteur tu chercheras&#8230;&#8203;</div>
 <div class="paragraph">
-<p>La batterie d&#8217;un laptop ayant quelques années ne tiendra <strong>PAS</strong> une journée entière de conf&#8230;&#8203;<br>
+<p>La batterie d&#8217;un laptop ayant vécu quelques années ne tiendra <strong>PAS</strong> une journée entière de conf&#8230;&#8203;<br>
 Pour éviter de vous trouver "à sec", <strong>pensez à recharger le midi</strong> (surtout si votre boîte a un stand) OU arrivez tôt à un talk, et essayez de trouver <strong>une place à côté d&#8217;une prise de courant</strong> 😉</p>
 </div>
 </td>
@@ -1108,7 +1109,7 @@ Plus on attendra, moins nos souvenirs seront clairs, et moins on aura envie de s
 Leur 1er intérêt est de <strong>VOUS être utiles</strong>, avec une mise en forme fonctionnelle et homogène.</p>
 </div>
 <div class="paragraph">
-<p>Ces prises de notes <strong>ne constitue pas un bel article</strong> que vous pourrez ensuite directement poster sur Medium ou Dev.to<br>
+<p>Ces prises de notes <strong>ne constitue pas un bel article</strong> que vous pourrez ensuite directement poster sur <a href="https://medium.com/">Medium</a> ou <a href="https://dev.to/">Dev.to</a><br>
 (Par contre, vous pourrez toujours vous appuyer sur elles et prendre votre temps pour écrire ce bel article plus tard 😉 )</p>
 </div>
 </td>
@@ -1142,7 +1143,7 @@ Parmi les éléments à y faire figurer et les questions à se poser :</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Personnellement, j&#8217;aime bien regrouper mon buzz words counter et ma synthèse dans un même fichier.<br>
+<p>Personnellement, j&#8217;aime bien regrouper ma synthèse et mon buzz words counter dans un même fichier.<br>
 En voici quelques exemples :</p>
 </div>
 <div class="ulist">
@@ -1220,10 +1221,11 @@ Mais si vous avez un bon coup de crayon, cela peut être une alternative à une 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-03-04 13:43:33 UTC
+Last updated 2022-03-04 14:32:11 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/languages/asciidoc.min.js"></script>
 <script>
 if (!hljs.initHighlighting.called) {
   hljs.initHighlighting.called = true
