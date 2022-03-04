@@ -375,7 +375,7 @@ Pour éviter de vous trouver "à sec", *pensez à recharger le midi* (surtout si
 ====
 
 * *Salle complète !*
-	** on checke s'il n'y a pas une *diffusion vidéo parallèle* sur une salle annexe.
+	** on checke s'il n'y a pas une *diffusion vidéo parallèle* sur un des espaces overflow.
 	** ou on *bascule sur sa conférence "plan B"* (d'où l'intérêt de choisir plusieurs conf sur un même créneau quand on sent qu'elles vont être très demandées...)
 
 == Après le salon
