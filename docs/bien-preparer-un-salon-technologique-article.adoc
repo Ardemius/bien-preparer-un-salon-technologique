@@ -65,6 +65,12 @@ Un grand salon technologique s'étalant sur plusieurs jours ne se prépare pas u
 Certains salons (comme les Devoxx) montent à *plus de 200 talks*. +
 -> Leur programme ne se lit donc pas en 5 minutes, même en lisant très vite...
 
+https://cfp.devoxx.fr/2022/talks[Le programme] de cette année:
+
+* https://cfp.devoxx.fr/2022/byday/wed[Mercredi 20 Avril]
+* https://cfp.devoxx.fr/2022/byday/thu[Jeudi 21 Avril]
+* https://cfp.devoxx.fr/2022/byday/fri[Vendredi 22 Avril]
+
 === On regarde quelles sont les entreprises présentes
 
 A l'heure actuelle, quasiment tous les talks d'un salon sont enregistrés, et vous pourrez presque toujours accéder à volonté et quand vous le souhaitez au replay sur une plateforme X ou Y. +
