@@ -8,6 +8,9 @@ Talk ayant pour objectif d'expliquer l'état d'esprit à avoir pour aborder un s
 
 Les slides sont directement accessibles à l'URL https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html, à l'aide des *GitHub pages* du projet.
 
+J'ai présenté ce talk au *CFP de Devoxx France 2022* qui l'a retenu mais en me demandant de le transformer en *article pour le blog de Devoxx France*. +
+Une version de travail de ce dernier est également disponible dans les GitHub pages du projet, à l'URL : https://ardemius.github.io/bien-preparer-un-salon-technologique/article.html
+
 == Création des slides
 
 Ces slides utilisent la stack technique http://asciidoctor.org/[*Asciidoctor*] + backend https://github.com/asciidoctor/asciidoctor-reveal.js[*reveal.js*]. +
