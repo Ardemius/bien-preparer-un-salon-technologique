@@ -1,5 +1,5 @@
 = Comment bien préparer son Devoxx France ?
-Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+Thomas SCHWENDER <image:github-icon-transparent.png[width=18] https://github.com/Ardemius/[GitHub] / image:twitter-icon-transparent.png[width=18] https://twitter.com/thomasschwender[@thomasschwender]>
 // Handling GitHub admonition blocks icons
 ifndef::env-github[:icons: font]
 ifdef::env-github[]
@@ -11,7 +11,7 @@ ifdef::env-github[]
 :tip-caption: :bulb:
 :warning-caption: :warning:
 endif::[]
-:imagesdir: ./images
+:imagesdir: ./images_article
 :source-highlighter: highlightjs
 // We must enable experimental attribute to display Keyboard, button, and menu macros
 :experimental:
@@ -32,10 +32,13 @@ endif::[]
 // To turn off ALL captions
 // :caption:
 
+// This preamble with author information is only for GitHub, that doesn't render them when declared under the main title
+ifdef::env-github[]
 [.normal]
 // Font Awesome is not rendered on GitHub because of CORS potential issue, using classic images instead of icons
 //{author} : icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="blue"] https://twitter.com/thomasschwender[@thomasschwender]
-{author} : image:github-icon-transparent.png[width=20] https://github.com/Ardemius/[GitHub] / image:twitter-icon-transparent.png[width=20] https://twitter.com/thomasschwender[@thomasschwender]
+{author} : image:github-icon-transparent.png[width=18] https://github.com/Ardemius/[GitHub] / image:twitter-icon-transparent.png[width=18] https://twitter.com/thomasschwender[@thomasschwender]
+endif::env-github[]
 
 toc::[]
 
