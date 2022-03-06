@@ -99,7 +99,7 @@ Les thèmes proposés à Devoxx sont nombreux (Architecture, Data, Cloud, IA, et
 Pour être efficace et éviter de trop se disperser, sélectionnez un petit nombre de thèmes, cela vous permettra de *plus facilement trouver les grandes tendances* derrière l'un d'eux 😉
 ====
 
-	* Vérifier quelles sont les *conférences non filmées*, et y assister en priorité si intéressé (ex : les Hands-on Labs du mercredi)
+	* Vérifier quelles sont les *conférences non filmées*, et y assister en priorité si intéressé (les Hands-on Labs, les BOFs du jeudi soir)
 	* *Garder quelques slots libres* pour pouvoir *réseauter*, discuter avec un speaker, sans stress, et sans trop de monde au stand.
 	* Ne pas hésiter à choisir *plusieurs conférences sur un même créneau horaire* (en cas de salle complète le jour J)
 +
