@@ -295,7 +295,7 @@ On vérifie bien les points suivants :
 +
 WARNING: Et *ne pas oublier ses adaptateurs secteur* pour pouvoir les recharger à une pause si besoin !
 
-* Savoir configurer un *pont Wifi* entre son smartphone et son PC (si besoin un WIFI gratuit est aussi fournit par Devoxx France).
+* Savoir configurer un *pont Wifi* entre son smartphone et son PC (si besoin un WIFI gratuit est aussi fourni par Devoxx France).
 * Récupérer le *plan des lieux* (il est https://www.devoxx.fr/plan-de-devoxx-france/[ICI]), avec les salles et les stands des exposants. +
 (Bon, il sera également au dos de votre pass, mais 2 précautions valent mieux qu'une 😉)
 * *Avoir son programme sur soi*, facilement accessible. +
