@@ -1,4 +1,4 @@
-= Comment bien préparer son Devoxx France ?
+= Comment bien préparer Devoxx France ?
 Thomas SCHWENDER <icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="aqua"] https://twitter.com/thomasschwender[@thomasschwender]>
 // Handling GitHub admonition blocks icons
 ifndef::env-github[:icons: font]
@@ -43,7 +43,7 @@ endif::env-github[]
 
 toc::[]
 
-Un Devoxx France, ce sont *plus de 200 conférences*, et *des dizaines de sociétés présentes*. +
+Devoxx France, c'est *plus de 200 conférences*, et *des dizaines de sociétés présentes*. +
 Il est toujours possible d'y arriver les mains dans les poches, avec juste carnet et crayon, puis d'enchaîner les talks jusqu'au dernier jour, avant de finalement presque tout oublier quelques jours après... +
 Mais il y aurait tellement mieux à faire pour tirer le maximum de ce type d'évènement, et faire en sorte qu'il *vous serve encore plusieurs années plus tard*.
 
@@ -62,7 +62,7 @@ Un grand salon technologique s'étalant sur plusieurs jours ne se prépare pas u
 
 === On prend son temps pour lire le programme
 
-Certains salons (comme les Devoxx) montent à *plus de 200 talks*. +
+Certains salons (comme Devoxx) montent à *plus de 200 talks*. +
 -> Leur programme ne se lit donc pas en 5 minutes, même en lisant très vite...
 
 === On regarde quelles sont les entreprises présentes
@@ -122,7 +122,7 @@ Concernant le *lieu où stocker ses notes*, les héberger *en ligne sur GitHub* 
 .Moteur de recherche efficace pour vos notes = KILLING feature
 [NOTE]
 ====
-Mise en situation : 6 mois après le Devoxx, au boulot, survient un problème avec Kubernetes (au hasard...) et vous savez que vous en avez déjà entendu parler en conf. +
+Mise en situation : 6 mois après Devoxx, au boulot, survient un problème avec Kubernetes (au hasard...) et vous savez que vous en avez déjà entendu parler en conf. +
 C'est quelque part dans vos notes, vous en êtes SÛRRRRSSS.
 
 Là, 2 situations : 
@@ -180,7 +180,7 @@ En Asciidoctor, un *template minimal* pourrait se limiter à :
 
 [source,asciidoc]
 ----
-= Comment bien préparer son Devoxx France ?
+= Comment bien préparer Devoxx France ?
 :imagesdir: ./images // <1>
 :toc: // <2> 
 
@@ -214,7 +214,7 @@ Vous pouvez bien sûr *customiser ce template* pour répondre à des besoins sp�
 ====
 [source,asciidoc]
 ----
-= Comment bien préparer son Devoxx France ?
+= Comment bien préparer Devoxx France ?
 Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
 // Handling GitHub admonition blocks icons
 ifndef::env-github[:icons: font]
