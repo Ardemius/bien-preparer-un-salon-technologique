@@ -319,12 +319,16 @@ Que votre 1er jour de salon soit le mercredi ou le jeudi, *prévoyez d'arriver l
 	* et, spécial Devoxx, pour pouvoir *s'installer dans l'amphi principal* 30 min à l'avance, histoire d'être sûr d'avoir une place ! +
 	(et avoir le temps de siroter un 1er café... ☕😉)
 
-=== Goodies : à la tentation tu résisteras
+=== Goodies : restez raisonnables !
 
-Qu'ils sont beaux et sympas tous ces *goodies* et jeux proposés par les différents exposants ! +
-Mais bon, vous n'êtes pas là que pour ça, non ? 😉 
+Comme chaque année, Devoxx France est accompagné de *son lot de goodies*, choisi avec amour par les différents exposants pour vous faire venir chez eux. 😉
+Cela fait partie des "classiques" de la plupart des salons, que certains apprécient tout particulièrement. +
+(Ma petite fille adore sa peluche Rhino de chez DataStax)
 
-	* Sachez rester *raisonnables*, ce n'est pas Pokemon, on peut passer le salon à essayer de tous les attraper...
+	* Sachez quand même *rester raisonnables*, ce n'est pas Pokemon, vous n'êtes pas là QUE pour tous les attraper 😁 +
+	Je vous ai conseillé précédemment de garder des *créneaux de libres* pour réseauter et faire la tournée des stands. +
+	Si vous voulez *faire un razzia*, c'est le bon moment, mais *pas* entre 2 talks qui s'enchaînent.
+
 	* Et ce serait trop dommage de se retrouver, à cause de ces 2 %#&$§! de minutes de plus, devant des portes closes car salle complète...
 
 === Prise de notes
