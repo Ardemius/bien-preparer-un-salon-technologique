@@ -191,7 +191,7 @@ Cela me permet de connaître dès la recherche GitHub la "fraîcheur" de mes not
 ====
 Chose que je fais de plus en plus ces derniers temps, *stocker toutes les notes des talks d'un même salon dans un même fichier*. +
 Le but est d'être toujours *plus efficace dans la recherche d'informations*, car dès lors vous pourrez balayer tout le salon avec un simple kbd:[Ctrl+f] sur cette unique page 👍 +
-(Pour un exemple de cette _Single Page Documentation_, voir mes notes de https://github.com/Ardemius/meetups-talks-conferences-notes/tree/master/202109-devoxx-france[Devoxx France 2021])
+(Pour un exemple de cette _Single Page Documentation_, voir mes notes de https://github.com/Ardemius/meetups-talks-conferences-notes/tree/master/202204-devoxx-france[Devoxx France 2022])
 ====
 
 ==== Créer à l'avance ses templates de notes
